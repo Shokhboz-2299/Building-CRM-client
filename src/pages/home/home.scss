@@ -1,0 +1,51 @@
+.home {
+  background-color: rgb(70, 67, 67);
+  min-height: 100vh;
+}
+.homeHeading {
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+.wrapper-info {
+  min-height: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.choose-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 130px;
+}
+
+.choose {
+  select {
+    width: 250px;
+    background-color: rgb(23, 140, 218);
+    border: 0;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 24px;
+  }
+}
+
+.info-result {
+  display: flex;
+  // justify-content: space-around;
+  div,h5,h2 {
+    margin-left: 50px;
+    h5 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    div {
+      margin-bottom: 10px;
+      font-size: 18px;
+    };
+    p {
+      font-size: 18px;
+    }
+  }
+}
