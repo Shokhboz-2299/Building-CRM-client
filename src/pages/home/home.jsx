@@ -130,7 +130,7 @@ function Home () {
   </div>
   <div className='bg-white info-result'>
         <div>
-        <p id='companyName'><h3>{infoCompany.company_name}</h3></p>
+        <p id='companyName'><span>{infoCompany.company_name}</span></p>
         <p id='complexName'><b>{infoComplex.compex_name}</b></p>
        {infoHouse && (
          <p>
