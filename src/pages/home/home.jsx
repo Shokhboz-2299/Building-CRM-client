@@ -133,12 +133,12 @@ function Home () {
         <p id='companyName'><span>{infoCompany.company_name}</span></p>
         <p id='complexName'><b>{infoComplex.compex_name}</b></p>
        {infoHouse && (
-         <p>
+         <div>
             <p> {infoHouse.house_rooms} rooms</p>
             <p>{infoHouse.overall_size} meter square</p>
             <p><b> {infoHouse.house_price_1kv} meter square</b></p>
             <p> {infoHouse.house_location}</p>
-        </p>
+        </div>
         
        )}
 
